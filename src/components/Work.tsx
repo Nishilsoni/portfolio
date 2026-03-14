@@ -9,6 +9,7 @@ const projects = [
     category: "Travel Assistance AI Website",
     tools: "React, TypeScript, Tailwind CSS, Node.js, Firebase, Framer Motion",
     image: "/images/placeholder.webp",
+    link: "https://wanderlust-ai-pi.vercel.app/",
   },
   {
     title: "BrandZ",
@@ -39,6 +40,7 @@ const projects = [
     category: "Shareable Notes Platform",
     tools: "React, Vite, SASS, Framer Motion, CryptoJS, Gemini AI",
     image: "/images/placeholder.webp",
+    link: "https://notty-shareable-notes.vercel.app/",
   },
 ];
 
@@ -121,7 +123,14 @@ const Work = () => {
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage image={project.image} alt={project.title} />
+                      <WorkImage
+                        image={project.image}
+                        alt={project.title}
+                        link={project.link}
+                        title={project.title}
+                        category={project.category}
+                        tools={project.tools}
+                      />
                     </div>
                   </div>
                 </div>

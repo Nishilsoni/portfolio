@@ -189,6 +189,75 @@
 
 .work-image-in {
   position: relative;
+  width: 100%;
+  max-width: 520px;
+}
+
+.work-visual-card {
+  position: relative;
+  width: 100%;
+  min-height: 280px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  overflow: hidden;
+  background: radial-gradient(circle at 20% 10%, rgba(94, 234, 212, 0.2), transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(110, 120, 250, 0.2), transparent 40%),
+    linear-gradient(145deg, rgba(10, 14, 23, 0.95), rgba(18, 24, 36, 0.95));
+}
+
+.work-visual-glow {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  top: -90px;
+  right: -70px;
+  background: radial-gradient(circle, rgba(94, 234, 212, 0.3), transparent 70%);
+  filter: blur(8px);
+}
+
+.work-visual-content {
+  position: relative;
+  z-index: 1;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.work-visual-eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 12px;
+  opacity: 0.65;
+}
+
+.work-visual-content h5 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.work-visual-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #c5c5c5;
+}
+
+.work-visual-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.work-visual-tags span {
+  font-size: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  padding: 5px 10px;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .work-link {
@@ -326,6 +395,18 @@
   }
 
   .work-image img {
-    max-height: 250px;
+    max-height: unset;
+  }
+
+  .work-visual-card {
+    min-height: 220px;
+  }
+
+  .work-visual-content {
+    padding: 20px;
+  }
+
+  .work-visual-content h5 {
+    font-size: 22px;
   }
 }
