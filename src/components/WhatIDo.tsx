@@ -91,18 +91,18 @@ const WhatIDo = () => {
               <h4>Building Interactive UIs</h4>
               <p>
                 Crafting performant, responsive interfaces with modern frameworks.
-                From SPAs to micro-frontends, I deliver pixel-perfect experiences.
+                From React SPAs to Flutter mobile apps, I deliver pixel-perfect experiences.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">React.js</div>
-                <div className="what-tags">Angular</div>
-                <div className="what-tags">Next.js</div>
+                <div className="what-tags">React</div>
+                <div className="what-tags">Vite</div>
+                <div className="what-tags">Tailwind CSS</div>
                 <div className="what-tags">TypeScript</div>
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">Material UI</div>
-                <div className="what-tags">HTML5</div>
-                <div className="what-tags">CSS3</div>
+                <div className="what-tags">Framer Motion</div>
+                <div className="what-tags">Flutter</div>
+                <div className="what-tags">HTML</div>
+                <div className="what-tags">SASS</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -129,18 +129,18 @@ const WhatIDo = () => {
               <h3>BACKEND</h3>
               <h4>Scalable Server Architecture</h4>
               <p>
-                Designing robust APIs and microservices. From CMS platforms to
-                complex business logic, I build backends that scale.
+                Designing robust APIs and backend services. From Firebase to
+                Node.js microservices, I build backends that scale.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">NestJS</div>
                 <div className="what-tags">Express.js</div>
-                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">Firebase</div>
                 <div className="what-tags">PostgreSQL</div>
                 <div className="what-tags">REST APIs</div>
-                <div className="what-tags">Microservices</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">Supabase</div>
                 <div className="what-tags">Python</div>
               </div>
               <div className="what-arrow"></div>

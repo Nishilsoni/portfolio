@@ -1,16 +1,21 @@
-# My Portfolio Wesbite - Overview 🚀
+# Nishil Soni - Portfolio Website 🚀
 
-This repository contains the open source version of my porfolio website.
-Do check it out!
+My personal portfolio website showcasing my work, skills, and experience as a Software Developer.
 
-## Instructions 🛠️
+## Tech Stack 🛠️
 
-I have modified the gsap club plugins with the trial plugins, but with the trial plugin you cannot host it🔴. So for Club plugins, Check out here: https://gsap.com/docs/v3/Installation/
+**Frontend** - React, TypeScript, GSAP, Three.js, WebGL, HTML, CSS, JavaScript
 
-**Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, Css, JavaScript
+## About Me
 
-![Portfolio-Preview](public/images/preview.png)
+B.Tech Computer Science student at CHARUSAT with experience in full-stack development, Flutter app development, and modern web technologies. Passionate about building impactful digital products and solving real-world problems through software development.
+
+## Contact
+
+- **Email**: soninishil27@gmail.com
+- **LinkedIn**: [linkedin.com/in/nishil-soni-bb6ab125a](https://www.linkedin.com/in/nishil-soni-bb6ab125a/)
+- **GitHub**: [github.com/Nishilsoni](https://github.com/Nishilsoni)
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is available under the [MIT License](LICENSE).

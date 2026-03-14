@@ -15,43 +15,54 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
-              </div>
-              <h3>2020</h3>
-            </div>
-            <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
-              </div>
-              <h3>2021</h3>
-            </div>
-            <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>Software Engineer</h4>
+                <h5>SCM Softwarelabs – Andhra Pradesh</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Working on full-stack development using Flutter and Java
+              Springboot. Developing UI for CRM and client-based projects.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Full Stack Developer Intern</h4>
+                <h5>Research Technology – Vadodara</h5>
+              </div>
+              <h3>2024</h3>
+            </div>
+            <p>
+              Worked on full-stack development using Kotlin. Developed modules
+              for inventory tracking and auditing on the IAMS project.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Front-End Developer (EdTech)</h4>
+                <h5>GraspHopp – Vadodara</h5>
+              </div>
+              <h3>2023</h3>
+            </div>
+            <p>
+              Developed educational game levels for 10th–12th grade subjects.
+              Converted textbook questions into interactive MCQs using Android
+              Studio, Java, and JSON.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Digital Marketing Intern</h4>
+                <h5>FlyingBees – Vadodara</h5>
+              </div>
+              <h3>2022</h3>
+            </div>
+            <p>
+              Worked on SEO optimization and digital marketing strategies.
+              Assisted in improving online presence and search rankings.
             </p>
           </div>
         </div>
