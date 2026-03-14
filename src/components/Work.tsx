@@ -42,6 +42,22 @@ const projects = [
     image: "/images/placeholder.webp",
     link: "https://notty-shareable-notes.vercel.app/",
   },
+  {
+    title: "Compile and Pray",
+    category: "VS Code Extension",
+    tools:
+      "TypeScript, VS Code API, Terminal Listening, Success & Failure Audio Reactions",
+    image: "/images/placeholder.webp",
+    link: "https://marketplace.visualstudio.com/items?itemName=nishilsoni.compile-and-pray",
+  },
+  {
+    title: "Keyboard Smash Detector",
+    category: "VS Code Extension",
+    tools:
+      "TypeScript, VS Code API, Rage-Smash Detection, Zen Mode, Chaos Mode, Rage Stats",
+    image: "/images/placeholder.webp",
+    link: "https://marketplace.visualstudio.com/items?itemName=nishilsoni.keyboard-rage-detector",
+  },
 ];
 
 const Work = () => {
